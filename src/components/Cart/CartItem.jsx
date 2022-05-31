@@ -11,9 +11,7 @@ const Item = styled.div`
     position: relative;
     flex-direction: row;
     align-items: flex-start;
-    //gap: 8px;
     width: 293px;
-    height: 190px;
     `
 const RemoveItem = styled.div`
 visibility: ${props => props.visible ? 'visible' : 'hidden'};
@@ -35,12 +33,12 @@ const ItemAttributes = styled.div`
     padding: 0px;
     gap: 4px;
     width: 164px;
-    height: 190px;
+    min-height: 190px;
 `
 const ItemPhotoWrapper = styled.div`
     display: flex;
     width: 121px;
-    height: 190px;
+    min-height: 190px;
     margin-left: 8px;
     align-items: center;
     justify-content: center;
@@ -55,7 +53,7 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 width: 136px;
-height: 190px;`
+min-height: 190px;`
 const ItemTitleBrand = styled.div`
     font-family: 'Raleway';
     font-style: normal;

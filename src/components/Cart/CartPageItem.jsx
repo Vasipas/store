@@ -12,7 +12,7 @@ const ItemWrapper = styled.div`
     display: flex;
     position: relative;
     width: 100%;
-    max-height: 336px;
+    min-height: 336px;
     border-bottom: 1px solid #E5E5E5;
     padding: 24px 0;
     flex-direction: row;

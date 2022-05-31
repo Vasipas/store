@@ -9,7 +9,7 @@ const AttrWrapper = styled.div`
     width: 0;
     }
     overflow: auto;
-    height: ${props => props.page === PRODUCT_PAGE && props.type === CART_PAGE ? '145px' : null};
+    //height: ${props => props.page === PRODUCT_PAGE && props.type === CART_PAGE ? '145px' : null};
     `
 
 class Attributes extends React.Component {
