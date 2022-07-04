@@ -21,6 +21,7 @@ Items are loading asyncronous and current category is stored in Session Storage 
 
 ### 2.Item Page
 ![Item Page](./src/assets/product.png)
+![Item Page](./src/assets/product2.png)
 
 Item attributes looks different depending of type
 
